@@ -1,0 +1,24 @@
+{
+  "name": "count-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc --watch",
+    "build": "tec",
+    "start": "egg-scripts start --port=7200 --daemon --title=conut-api",
+    "stop": "egg-scripts stop --title=conut-api",
+    "dev": "egg-bin dev"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "egg-bin": "^4.16.2",
+    "typescript": "^4.3.3"
+  },
+  "dependencies": {
+    "egg": "^2.29.4",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.14.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
