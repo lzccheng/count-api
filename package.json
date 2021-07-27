@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "tsc": "tsc --watch",
-    "build": "tec",
+    "build": "tsc",
     "start": "egg-scripts start --port=7200 --daemon --title=conut-api",
     "stop": "egg-scripts stop --title=conut-api",
     "dev": "egg-bin dev"
