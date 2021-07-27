@@ -12,8 +12,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.12.2",
-    "egg-bin": "^4.16.2",
-    "typescript": "^4.3.3"
+    "egg-bin": "^4.16.2"
   },
   "dependencies": {
     "egg": "^2.29.4",
